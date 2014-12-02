@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="UTF-8">    
-    <!-- delete if non-responsive / start -->
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <!-- delete if non-responsive / end -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>asvdgroup.ru</title>
-    <!-- favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- styles -->
-    <link rel="stylesheet" href="vendor/bootstrap/3.3.1/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- fonts -->
-    <link rel="stylesheet" href="fonts/inconsolata/inconsolata.css"> 
-    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter27290855 = new Ya.Metrika({id:27290855, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/27290855" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-    <!-- Yandex verification -->
-    <meta name='yandex-verification' content='776cb66f6c269852' />
-    <!--[if IE]>
-        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!--[if lt IE 9]>
-    <p class="browsehappy">Вы используете <strong>устаревшую</strong> версию браузера, поэтому страница может работать некорректно. Обновить браузер можно <a href="http://browsehappy.com/">по этой ссылке</a> или перейти на сайт http://browsehappy.com</p>
-    <![endif]-->
-</head>
-<body id="page-top"> 
+<?php get_header(); ?>
 
     <!-- / start -->
     <header class="header">
@@ -372,29 +344,8 @@
                 
                 </div>
                 
-                <!-- form -->
-                <div class="col-xs-6 col-xs-offset-3">
-                    
-                    <form class="[ form-horizontal ] section-5_form" action="mail.php" method="post" role="form">
-                        
-                      <div class="form-group">
-                          <input type="text" class="form-control" id="name" name="name" placeholder="Ваше имя *" required="required">
-                      </div>
-                      
-                      <div class="form-group">
-                          <input type="text" class="form-control" id="mail_or_phone" name="mail_or_phone" placeholder="Ваш email или телефон *" reqired="reqired">
-                      </div>    
-                      <div class="form-group">
-                          <textarea class="form-control" rows="3" id="comments" name="comments" placeholder="Ваш комментарий"></textarea>                          
-                      </div>
-                      
-                      <div class="form-group">                        
-                          <button type="submit" class="btn btn-default">Отправить</button>                        
-                      </div>
-                      
-                    </form>
-                    
-                </div>
+                <!-- form -->                    
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('fos') ); ?> 
                 
             </div><!-- .row / end -->
             
@@ -405,47 +356,4 @@
     
     <!-- ---------------------------------------------------- -->
     
-    <!-- / start -->
-    <footer class="footer">
-       
-        <div class="container">
-           
-            <div class="row">
-               
-                <div class="col-xs-12 text-center">
-                    
-                    <div class="footer_copy">                        
-                       © 2014 - asvdgroup.ru
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 text-center">
-                    
-                    <div class="footer_develop">                     
-                        Разработка сайта<br>
-                        <a class="footer_develop__link" target="_blank" href="http://wd.honcharovs.com/">Александр Гончаров</a>                    
-                    </div>
-                    
-                </div>
-                
-            </div>
-            
-        </div>
-        
-    </footer>
-    <!-- / end -->
-    
-    <!-- latest jquery version -->
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <!-- bootstrap js -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-    <!-- Navigation scroll -->
-    <script src="js/navbar-scroll.js"></script>
-    
-</body>
-</html>
+<?php get_footer(); ?>
