@@ -1,0 +1,27 @@
+    .navbar-default .navbar-brand {    
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default {
+        padding: 10px 0;
+        border: 0;        
+        /*background-color: transparent;*/
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 5px 0 0;
+        /*background-color: #222;*/
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.2em;
+    }

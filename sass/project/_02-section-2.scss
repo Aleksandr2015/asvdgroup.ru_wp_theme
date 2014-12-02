@@ -1,0 +1,52 @@
+/*
+** section-2
+*/
+
+.section-2 {    
+    padding: 75px 0 75px;
+    &_title {
+        height: 50px;
+        line-height: 50px;
+        font-family: 'Inconsolata';
+        font-size: 28px;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 75px;
+        
+    }
+    &_item {
+        margin-bottom: 40px;        
+        &__title {            
+            font-size: 22px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+        &__title._right {
+            text-align: right;
+        }
+        &__img {
+            margin:0 10px 10px 0;
+            float: left;            
+        }
+        
+        &__img img {
+            width: 188px;
+            height: 188px;
+        }
+        &__img._right {
+            float: right;
+            margin: 0 0 10px 10px; 
+        }
+        &__text {   
+            font-size: 14px;
+            line-height: 18px;
+            height: 188px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    }
+}

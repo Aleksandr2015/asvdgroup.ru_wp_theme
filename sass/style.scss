@@ -1,0 +1,24 @@
+// -> base css
+@import "base/base";
+
+// -> Bootstrap base if need
+    // styles for print
+    @import "../vendor/bootstrap/print";
+    // disable the responsiveness
+    @import "../vendor/bootstrap/non-responsive";
+
+// -> Project styles
+@import "project/00-navbar";
+@import "project/00-navbar-shrink";
+@import "project/01-header";
+@import "project/01_1-about";
+@import "project/02-section-2";
+@import "project/03-section-3";
+@import "project/04-section-4";
+@import "project/05-section-5";
+@import "project/06-footer";
+
+
+//avg sass
+@import "core";
+

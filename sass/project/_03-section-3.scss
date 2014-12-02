@@ -1,0 +1,31 @@
+/*
+** section-3
+*/
+
+.section-3 {
+    background-color: #00BA9F;
+    padding: 75px 0 0;        
+    &_item {
+        margin-bottom: 40px;        
+        &__img {
+            width: 100%;
+            text-align: center;    
+            margin: 0 auto 10px;
+//            & img {
+//                box-shadow: 1px 1px 3px #000;
+//            }
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 18px;
+            color: #fff;
+            letter-spacing: 1px;
+            text-align: center;
+        }        
+    }
+}
+
+
+.section-3 .section-2_title {
+        color:  #fff;
+    }
