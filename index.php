@@ -39,8 +39,8 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-        <!-- Navigation / end -->        
-        <img class="header_logo" src="img/logo.png" alt="ASVD Group">        
+        <!-- Navigation / end -->
+        <img class="header_logo" src="<?php the_field('asvd_header_logo'); ?>" alt="ASVD Group">
     </header>
     <!-- / end -->
     
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
                     <blockquote>
-                        <p>Наша цель - размещение эффективной рекламы на собственной сети видеоносителей в самых оживленных местах Москвы и Московской области - Бизнес Центры, Торговые Центры, места крупного скопления людей и автотранспорта. Сотрудничество с нами расширит ваш бизнес и обеспечит стабильный приток клиентов.</p>
+                        <?php the_field('asvd_about_us'); ?>
                     </blockquote>
                 </div>
             </div>
@@ -344,8 +344,12 @@
                 
                 </div>
                 
-                <!-- form -->                    
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('fos') ); ?> 
+                <!-- form -->
+                <div class="col-xs-6 col-xs-offset-3">                    
+                    
+                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('fos') ); ?> 
+                    
+                </div>
                 
             </div><!-- .row / end -->
             
