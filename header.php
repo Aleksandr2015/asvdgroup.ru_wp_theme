@@ -42,6 +42,47 @@
             background-color: <?php the_field('asvd_headerlogobg') ?>;
             opacity: <?php the_field('asvd_headerlogobgopacity') ?>;
         }
+        .abou_us {
+            background-color: <?php the_field('asvd_about_usbg') ?>;
+        }
+        .abou_us blockquote {
+            background-color: <?php the_field('asvd_about_ustextbg') ?>;
+            color: <?php the_field('asvd_about_ustextcolor') ?>;
+        }        
+        .section-2 {
+            background-color: <?php the_field('asvd_bgcolor_block_2') ?>;
+        }
+        .section-2 .section-2_title {
+            color: <?php the_field('asvd_title_block_2_color') ?>;
+        }
+        .section-2_item__text {
+            background-color: <?php the_field('asvd_textbg_block_2') ?>;
+        }
+        .section-3 {
+            background-color: <?php the_field('asvd_bgcolor_block_3') ?>;
+        }
+        .section-3 .section-2_title {
+            color: <?php the_field('asvd_title_block_3_color') ?>;
+        }
+        .section-5 {
+            background-color: <?php the_field('asvd_bgcolor_block_4') ?>;
+        }
+        .section-5 .section-2_title {
+            color: <?php the_field('asvd_title_block_4_color') ?>;
+        }
+        .section-5_item {
+            color: <?php the_field('asvd_email_phone_block_4_color') ?>;
+        }
+        .section-5_form {
+            border-color: <?php the_field('asvd_formbordercolor_block_4') ?>;
+        }
+        .footer {
+            background-color: <?php the_field('asvd_bgcolor_block_5') ?>;
+        }
+        .footer_copy, .footer_copy:hover, .footer_copy:active, .footer_copy:focus,
+        .footer_develop, .footer_develop:hover, .footer_develop:active, .footer_develop:focus {
+            color: <?php the_field('asvd_textcolor_block_5') ?>;
+        }        
     </style>
     <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter27290855 = new Ya.Metrika({id:27290855, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/27290855" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
     <!-- Yandex verification -->

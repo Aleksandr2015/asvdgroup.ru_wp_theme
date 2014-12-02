@@ -70,7 +70,7 @@
                 <div class="col-xs-12">
                    
                     <div class="section-2_title">
-                        Наши решения
+                        <?php the_field('asvd_title_block_2'); ?>
                     </div>
                     
                 </div>
@@ -79,19 +79,13 @@
                 <div class="col-xs-6">
                     
                    <div class="section-2_item">
-                       
-<!--
-                        <div class="section-2_item__title _right">
-                            Заголовок
-                        </div>
--->
                         
                         <div class="section-2_item__img">
-                           <img src="img/section-2_item-1-videostena.png" alt="Видеостена">
+                           <img src="<?php the_field('asvd_block_2_img_1'); ?>" alt="">
                         </div>
                         
                        <div class="section-2_item__text">
-                           <b>Видеостена</b> – это демонстрирующий единое видеоизображение полиэкран, состоящий из нескольких видеокубов (отдельных LCD панелей), управляемых специальным контроллером и программным обеспечением. Видеостена позволяет отображать видео информацию на большом экране для значительного количества зрителей. Модульный принцип позволяет создавать видеостены сколь угодно больших размеров, при этом общее изображение отличается однородностью.
+                           <?php the_field('asvd_block_2_text_1'); ?>
                        </div>
                        
                    </div>
@@ -102,19 +96,13 @@
                 <div class="col-xs-6">
                    
                    <div class="section-2_item">
-                       
-<!--
-                        <div class="section-2_item__title">
-                            Видеостойка
-                        </div>
--->
                         
                         <div class="section-2_item__img _right">
-                           <img src="img/section-2_item-2-videostoyka.png" alt="Видеостойка">
+                           <img src="<?php the_field('asvd_block_2_img_2'); ?>" alt="">
                         </div>
                         
                        <div class="section-2_item__text">
-                           <b>Видеостойка</b> - рекламный носитель нового поколения. Представляет собой LED-дисплей высокого разрешения (Full HD/4К), заключенный в прочный алюминиевый корпус. Имеет широкий выбор цветов и отлично впишется в любой интерьер. Благодаря возможности удаленного управления, загрузка контентапроисходит моментально. Так же у нас представлены специальные модели для уличного размещения  в любое время года.
+                           <?php the_field('asvd_block_2_text_2'); ?>
                        </div>
                        
                    </div> 
@@ -125,19 +113,13 @@
                 <div class="col-xs-6">
                    
                     <div class="section-2_item">
-                       
-<!--
-                        <div class="section-2_item__title _right">
-                            Заголовок
-                        </div>
--->
                         
                         <div class="section-2_item__img">
-                           <img src="img/section-2_item-3-videovitrina.png" alt="Видеовитрина">
+                           <img src="<?php the_field('asvd_block_2_img_3'); ?>" alt="">
                         </div>
                         
                        <div class="section-2_item__text">
-                           <b>Видеовитрина</b> - представляет собой LCD-панель большого размера от 42 до 60 дюймов. Предназначена для настенного монтажа в местах с ограниченной площадью. Это современная замена широко известных Лайт-Боксов (Lightbox).
+                           <?php the_field('asvd_block_2_text_3'); ?>
                        </div>
                        
                    </div> 
@@ -148,19 +130,13 @@
                 <div class="col-xs-6">
                     
                     <div class="section-2_item">
-                       
-<!--
-                        <div class="section-2_item__title">
-                            Заголовок
-                        </div>
--->
                         
                         <div class="section-2_item__img _right">
-                           <img src="img/section-2_item-4-svetodiodniy-ekran.png" alt="Светодиодный экран">
+                           <img src="<?php the_field('asvd_block_2_img_4'); ?>" alt="">
                         </div>
                         
                        <div class="section-2_item__text">
-                           <b>Светодиодный экран</b> – это рекламный носитель, представляющий собой электронный экран, в котором в качестве источника света используются полупроводниковые светодиоды. Светодиодные экраны обладают широкими возможностями вывода информации, позволяют демонстрировать динамическую рекламу, черно-белые и цветные видеоролики, а также отображать температуру, дату, текущее время. Контент загружается удаленно с помощью сетевого контроллера. Варианты исполнения внутренние и наружные.
+                           <?php the_field('asvd_block_2_text_4'); ?>
                        </div>
                        
                    </div>
@@ -184,7 +160,7 @@
                 <div class="col-xs-12">
                    
                     <div class="section-2_title">
-                        Преимущества
+                        <?php the_field('asvd_title_block_3'); ?>
                     </div>
                     
                 </div>
@@ -195,11 +171,11 @@
                     <div class="section-3_item">
                         
                         <div class="section-3_item__img">
-                            <img class="img-circle" alt="" src="img/advantages-01.png" width="250" height="250">
+                            <img class="img-circle" alt="" src="<?php the_field('asvd_block_3_img_1'); ?>" width="250" height="250">
                         </div>
                         
                         <div class="section-3_item__text">
-                            Наши рекламные конструкции располагаются в местах с высокой проходимостью и находятся всегда на уровне глаз потенциального покупателя.
+                            <?php the_field('asvd_block_3_text_1'); ?>
                         </div>
                         
                     </div>
@@ -212,11 +188,11 @@
                     <div class="section-3_item">
                         
                         <div class="section-3_item__img">
-                            <img class="img-circle" alt="" src="img/advantages-02.png" width="250" height="250">
+                            <img class="img-circle" alt="" src="<?php the_field('asvd_block_3_img_2'); ?>" width="250" height="250">
                         </div>
                         
                         <div class="section-3_item__text">
-                            Динамичный, яркий рекламный контент на видео носителях привлекает к себе больше внимания чем на стандартных рекламных баннерах и растяжках.
+                            <?php the_field('asvd_block_3_text_2'); ?>
                         </div>
                         
                     </div>
@@ -229,11 +205,11 @@
                     <div class="section-3_item">
                         
                         <div class="section-3_item__img">
-                            <img class="img-circle" alt="" src="img/advantages-03.png" width="250" height="250">
+                            <img class="img-circle" alt="" src="<?php the_field('asvd_block_3_img_3'); ?>" width="250" height="250">
                         </div>
                         
                         <div class="section-3_item__text">
-                            Рекламные видео носители более выигрышные в условиях высокого рекламного шума и воспринимаются людьми как способ развлечения во время ожидания, не вызывая лишнего раздражения.
+                            <?php the_field('asvd_block_3_text_3'); ?>
                         </div>
                         
                     </div>
@@ -246,11 +222,11 @@
                     <div class="section-3_item">
                         
                         <div class="section-3_item__img">
-                            <img class="img-circle" alt="" src="img/advantages-04.png" width="250" height="250">
+                            <img class="img-circle" alt="" src="<?php the_field('asvd_block_3_img_4'); ?>" width="250" height="250">
                         </div>
                         
                         <div class="section-3_item__text">
-                            Высокая потребительская активность  людей посещающих торговые и бизнес центры. Следовательно более высокий шанс получить обратную связь от просмотренной рекламы.
+                            <?php the_field('asvd_block_3_text_4'); ?>
                         </div>
                         
                     </div>
@@ -263,11 +239,11 @@
                     <div class="section-3_item">
                         
                         <div class="section-3_item__img">
-                            <img class="img-circle" alt="" src="img/advantages-05.png" width="250" height="250">
+                            <img class="img-circle" alt="" src="<?php the_field('asvd_block_3_img_5'); ?>" width="250" height="250">
                         </div>
                         
                         <div class="section-3_item__text">
-                            Проведение как глобальных так и локальных рекламных акций, нацеленных на аудиторию в определенной геолокации.
+                            <?php the_field('asvd_block_3_text_5'); ?>
                         </div>
                         
                     </div>
@@ -280,11 +256,11 @@
                     <div class="section-3_item">
                         
                         <div class="section-3_item__img">
-                            <img class="img-circle" alt="" src="img/advantages-06.png" width="250" height="250">
+                            <img class="img-circle" alt="" src="<?php the_field('asvd_block_3_img_6'); ?>" width="250" height="250">
                         </div>
                         
                         <div class="section-3_item__text">
-                            Мгновенное обновление рекламного контента, создание гибких графиков показа, благодаря современной системе управления рекламным контентом.
+                            <?php the_field('asvd_block_3_text_6'); ?>
                         </div>
                         
                     </div>
@@ -309,7 +285,7 @@
                 <div class="col-xs-12">
                    
                     <div class="section-2_title">
-                        Контакты
+                        <?php the_field('asvd_title_block_4'); ?>
                     </div>
                     
                 </div>
@@ -322,7 +298,7 @@
                         <span class="section-5_item__icon glyphicon glyphicon-envelope" aria-hidden="true"></span>
                         
                         <div class="section-5_item__email">
-                            info@asvdgroup.ru
+                            <?php the_field('asvd_email_block_4'); ?>
                         </div>
                         
                     </div>
@@ -337,7 +313,7 @@
                         <span class="section-5_item__icon glyphicon glyphicon-earphone" aria-hidden="true"></span>
                         
                         <div class="section-5_item__email">
-                            +7 (495) 125-26-24
+                            <?php the_field('asvd_phone_block_4'); ?>
                         </div>
                         
                     </div>
