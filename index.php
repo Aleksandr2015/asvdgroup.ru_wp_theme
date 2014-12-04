@@ -25,13 +25,13 @@
                             <a href="#page-top"></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#1">Наши решения</a>
+                            <a class="page-scroll" href="#1"><?php the_field('asvd_menu_1'); ?></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#2">Преимущества</a>
+                            <a class="page-scroll" href="#2"><?php the_field('asvd_menu_2'); ?></a>
                         </li>                        
                         <li>
-                            <a class="page-scroll" href="#4">Контакты</a>
+                            <a class="page-scroll" href="#4"><?php the_field('asvd_menu_3'); ?></a>
                         </li>
                     </ul>
                 </div>
