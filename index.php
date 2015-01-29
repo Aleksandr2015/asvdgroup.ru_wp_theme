@@ -334,6 +334,16 @@
     </section>
     <!-- section-5 / end --> 
     
+    <section class="section-6" id="6">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <?php# the_field('asvd_map'); ?>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <!-- ---------------------------------------------------- -->
     
 <?php get_footer(); ?>
