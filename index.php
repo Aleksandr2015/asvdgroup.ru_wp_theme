@@ -33,6 +33,9 @@
                         <li>
                             <a class="page-scroll" href="#4"><?php the_field('asvd_menu_3'); ?></a>
                         </li>
+                        <li>
+                            <a class="page-scroll" href="#6"><?php the_field('asvd_block-6_title'); ?></a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -334,14 +337,9 @@
     </section>
     <!-- section-5 / end --> 
     
-    <section class="section-6" id="6">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <?php# the_field('asvd_map'); ?>
-          </div>
-        </div>
-      </div>
+    <section class="section-6" id="6">      
+            <div class="title"><?php the_field('asvd_block-6_title'); ?></div>
+            <?php the_field('asvd_map'); ?>      
     </section>
     
     <!-- ---------------------------------------------------- -->

@@ -167,7 +167,6 @@ body {
 }
 
 .navbar-default .navbar-brand {
-  -webkit-transition: all .3s;
   transition: all .3s;
 }
 
@@ -175,7 +174,6 @@ body {
   padding: 10px 0;
   border: 0;
   /*background-color: transparent;*/
-  -webkit-transition: padding .3s;
   transition: padding .3s;
 }
 
@@ -184,7 +182,7 @@ body {
 }
 
 .navbar-default.navbar-shrink {
-  padding: 5px 0 0;
+  padding: 5px 0 0
   /*background-color: #222;*/
 }
 
@@ -450,6 +448,49 @@ div.wpcf7-mail-sent-ok {
 }
 .footer_develop__link:hover, .footer_develop__link:hover, .footer_develop__link:hover {
   color: #000;
+}
+
+/*
+** map
+*/
+.section-6 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 810px;
+}
+.section-6 .title {
+  position: absolute;
+  display: inline-block;
+  background: rgba(34, 118, 184, 0.8);
+  padding: 10px;
+  top: 70px;
+  left: 45%;
+  height: 50px;
+  line-height: 31px;
+  font-family: 'Inconsolata';
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 999;
+  color: #fff;
+}
+
+body .prettyMapList .mapHolder {
+  height: 810px;
+}
+
+.prettyMapList .mapHolder .infoWindow p {
+  text-align: center;
+}
+
+.prettyMapList .mapHolder img, #SingleMapLocation img {
+  margin-left: 20px;
+}
+
+.infoWindowContainer .infoWindow h3 {
+  padding: 7px 25px 7px 10px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
